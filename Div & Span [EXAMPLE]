@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+	<header>
+		<title>SOME EXAMPLES OF DIV AND SPAN ATTRIBUTES</title>
+	</header>
+	<body>
+			<h1>Div & Span Attributes</h1>
+		<div id="div1">
+			<h2>Div Attributes</h2>
+				<p>Div elements are extremely important because they allow you to group elements together.</p>
+				<p>Essentially allowing you to divide web pages up into proper sections.</p>
+				<p>Adding the id attribute to each div is extremely important because everything within the div to be stylised together</p>
+				<p>For example you could align your header made out of an imagine and navigation list (home, about etc) correct.</p>
+				<p>All you'd have to do is group the two elements together with a div attribute, assign an ID to it and quote the ID in the CSS to style it.</p>
+		</div>
+<!--END OF FIRST DIV/SECTION-->
+		<div id="div2">
+			<h2>Span Attributes</h2>
+				<p>Span attributes are also extremely <span class="span1">important</span> and are essentially inline/in text versions of div attributes.</p>
+				<p>They allow different parts of text to be <span class="span1">grouped together</span>.</p>
+				<p>That way you can use ID or Class attributes to <span class="span1">link</span> them to the CSS and style them differently</p>
+				<p>For example if you had a passage of text which <span class="span1">contained multiple quotes which you wanted to style differently to stand out</span>.</p>
+		</div>
+<!--END OF SECOND DIV/SECTION-->
+</body>
