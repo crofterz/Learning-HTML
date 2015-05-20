@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+	<header>
+		<title>HERE IS AN EXAMPLE OF SOME FORMS</title>
+	</header>
+	<body>
+		<p>
+			<form action="http://www.cheese.co.uk/yourmum.php" method="post">
+				<label>Name: <input type="text" name="name" size="15" maxlength="30"/></label>
+			</form>
+		</p>
+		<p>
+		HELLO?
+		</p>
+			<form action="http://www.cheese.co.uk/yourface.php" method="post">
+				<textarea name="comment" cols="50" rows="5">your comment here</textarea>
+			</form>
+		<p>
+			<form action="http://www.cheese.co.uk/yourhead.php" method="post">
+				<input id="password" type="password" name="password" size="10" maxlength="8">
+				<label for="password">Password:</label>
+			</form>
+		</p>
+		<p>
+			<form action="http://www.cheese.co.uk/yourhair.php" method="get">
+				<input id="male" type="radio" name="gender" value="male">
+				<label for="Male">Male</label>
+				<input id="female" type="radio" name="gender" value="female">
+				<label for="female">Female</label>
+			</form>
+		</p>
+		<p>
+			<form action="http://www.cheese.co.uk/music.php" method="get">
+				<label>Metal <input type="checkbox" name="genre" value="metal" checked="checked"/></label>
+				<label>Pop <input type="checkbox" name="genre" value="pop"/></label>
+				<label>Jazz <input type="checkbox" name="genre" value="jazz"/></label>
+		</p>
+		
+		<p>Which 1 of these sandwiches would you choose?</p>
+			<form action="http://www.cheese.co.uk/yourimportante.php" method="get">
+				<select name="sandwiches">
+					<label><option value="club">Club</option></label>
+					<label><option value="blt">BLT</option></label>
+					<label><option value="ham">Ham</option></label>
+					<label><option value="cheese">Cheese</option></label>
+					<label><option value=chicken and bacon">Chicken & Bacon</option></label>
+				</select>
+			</form>
+		<p>Which of the following statements best describes you? <i>(you can choose up to 3 multiple options using shift/command + click)</i></p>
+			<form action="http://www.cheese.co.uk/jobtraits.php" method="get">
+				<select name="traits" size="3" multiple="multiple">
+					<label><option value="honest">Honest</option></label>
+					<label><option value="hard work">Hard-Working</option></label>
+					<label><option value="punctual">Punctual</option></label>
+					<label><option value="flexible">Flexible</option></label>
+					<label><option value="reliable">Reliable</option></label>
+					<label><option value="thoughtful">Thoughtful</option></label>
+				</select>
+			</form>
+		<p>Upload your song <b>(in MP3 format)</b></p>
+			<form action="http://www.cheese.co.uk/songs.php" method="post">
+				<input id="file" type="file" name="user-upload"><br />
+				<input id="submission" type="submit" value="upload">
+			</form>
+		<p>Sign up to our mailing list</p>
+			<form action="http://www.cheese.co.uk/mailinglist.php" method="post">
+				<input id="email" type="text" name="email" />
+				<input id="subscribe" type="submit" name="subscribe" value="Subscribe" />
+			</form>
+		<p>Sign up to our mailing list AGAIN</p>
+			<form action="http://www.cheese.co.uk/mailinglist2.php" method="post">
+				<input id="email" type="text" name="email" />
+				<input id="subscribe" type="image" src="/Users/Kieran/Desktop/WEB DEV/subscribe_button-01.png" width="100" height="50" />
+			</form>
+			<form action="http://www.cheese.co.uk/x-files.php" method="post">
+				<fieldset>
+					<legend>Contact Details</legend>
+						<label>Name: <br />
+							<input type="text" name="name" size="15" maxlength="30"/></label><br />
+						<label>Email: <br />
+							<input type="text" name="email" size="15" maxlength="30"/></label><br />
+						<label>Contact Number: <br />
+							<input type="text" name="phone number" size="15" maxlength="12"/></label><br />
+				</fieldset>
+			</form>
+<!--MULTIPLE FORM CONTROLS ON 1 PHP FILE-->
+			<form action="http://www.cheese.co.uk/multiple.php" method="post">
+						<label>Name: <br />
+							<input type="text" name="name" size="15" maxlength="30"/></label><br />
+						<label>Email: <br />
+							<input type="text" name="email" size="15" maxlength="30"/></label><br />
+						<label>Contact Number: <br />
+							<input type="text" name="phone number" size="15" maxlength="12"/></label><br />
+			</form>
+<!--HTML5 ONLY FORM CONTROLS-->
+			<p>HTML5 ONLY FORM CONTROLS</p>
+			<form action="http://www.cheese.co.uk/login/" method="post">
+				<label for="username">Username:</label>
+				<input type="text" name="username" required="required" /><br />
+				<label for="password">Password:</label>
+				<input type="password" name="password required="required" /><br />
+				<input type="submit" value="Submit" />
+			</form>	
+			<form action="http://www.cheese.co.uk/dates" method="post">
+				<label for="depart">Departure Date:</label>
+				<input type="date" name="depart" />
+				<input type="submit" value="Submit" />
+			</form>
+			<form action="http://www.cheese.co.uk/email" method="post">
+				<p>Please enter your email address</p>
+				<input type="email" name="email" />
+				<input type="submit" value="Submit" />
+			</form>
+			<form action="http://www.cheese.co.uk/urlbantz" method="post">
+				<p>Please enter your URL</p>
+				<input type="url" name="website" />
+				<input type="submit" value="Submit" />
+			</form>
+			<form action=http://www.cheese.co.uk/search" method="post">
+				<p>Search</p>
+				<input type="search" name="search" placeholder="enter keyword" />
+				<input type="submit" value="Search" />
+			</form>
+	</body>
