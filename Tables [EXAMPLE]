@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>THIS IS A TABLE EXAMPLE</title>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th>BBC1</th>
+					<th>Channel 4</th>
+					<th>Channel 5</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>5-6</th>
+					<td>Prog 1</td>
+					<td rowspan="2">Prog 2</td>
+					<td>Prog 3</td>
+				</tr>
+				<tr>
+					<th>6-7</th>
+					<td>Prog 4</td>
+					<td>Prog 5</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td>THIS</td>
+					<td>IS</td>
+					<td>THE FOOTER</td>
+				</tr>
+			</tfoot>
+		</table>
+		<br>
+<!--THE ABOVE TABLE IS A LONG ONE, HENCE THE NEED FOR THEAD, BODY AND FOOT. SMALLER TABLES LIKE THE ONE BELOW DON'T NEED THEM-->
+			<table>
+					<tr>
+						<th></th>
+						<th>10</th>
+						<th>11</th>
+						<th>12</th>
+						<th>13</th>
+						<th>14</th>
+					</tr>
+
+					<tr>
+						<th>Friday</th>
+						<td>Activity 1</td>
+						<td>Activity 2</td>
+						<td>Activity 3</td>
+					</tr>
+					<tr>
+						<th>Saturday</th>
+						<td colspan="2">Activity 4</td>
+						<td>Activity 5</td>
+					</tr>
+					<tr>
+						<th>SUNDAY</th>
+						<td>Activity 6<td>
+					</tr>
+			</table>
+	</body>
