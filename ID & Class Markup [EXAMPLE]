@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+	<header>
+		<title>SOME EXAMPLES OF ID AND CLASS ATTRIBUTES</title>
+	</header>
+	<body>
+		<h1>ID & Class Attributes<h1>
+		<h2>ID Attributes</h2>
+			<p>ID attributes allow developers to style a specific area of a page differently.</p>
+			<p>For example if you had 3 sets of paragraphs but you wanted to style one of the three differently.</p>
+			<p>Using ID attributes in conjunction with CSS would allow you to do this.</p>
+			<p id="idexample">For this paragraph all you'd do is quote the "idexample" id tag in the CSS followed by it's styling information.</p>
+		
+		<h2>Class Attributes</h2>
+			<p>Class attributes are like ID attributes however they enable you to style multiple areas of a page differently.</p>
+			<p>For example if you had 6 paragraphs but 3 of them contained important information which you wanted to be styled differently from the rest of the page.</p>
+			<p>Using Class attributes in conjunction with CSS would allow you to do this.</p>
+			<p class="classexample1">For this paragraph all you'd do is quote the "classexample1" class tag in the CSS followed by it's styling information.</p>
+			<p>You can also use more than 1 class on different elements, separated by a space.</p>
+			<p class="classexample1 classexample2">For example this paragraph belongs the classes "classexample1" and "classexample2" and would therefore follow the CSS styling rules written for both classes in the CSS.</p>
+	</body>
