@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+	<header>
+		<title>iFRAME EXPERIMENT</title>
+	</header>
+	<body>
+			<h1>iFRAME EXPERIMENT</h1>
+				<p>this is a test to see if you can put any page into an iframe.</p>
+				<iframe
+					width="450"
+					height="350"
+					src="http://blasteroid.co.uk/">
+				</iframe>
+				<p>lets try some border scrollbars</p>
+				<iframe
+					width="450"
+					height="350"
+					src="http://blasteroid.co.uk/"
+					frameborder="1"
+					scrolling="yes">
+				</iframe>
+</body>
