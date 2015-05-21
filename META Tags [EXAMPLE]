@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+	<header>
+		<title>META EXAMPLE</title>
+		<meta name="description"
+			content="this is an example of a seo meta description" />
+		<meta name="robots"
+			content="nofollow" />
+		<meta http-equiv="pragma"
+			content="no-cache" />
+		<meta http-equiv="expires"
+			content="Fri, 04 Ap 2014 22:30:30 GMT" />
+	</header>
+	<body>
+			<h1>META EXAMPLE</h1>
+				<p>Rather than use a plugin for SEO description and title. You can manual put it in yourself. See header code for details.</p>
+				<p>You also put your nofollow and noindex instructions for search engine robots too.</p>
+				<p>And also prevent browsers from caching the page (http-equiv, pragma) and give a date for when caching needs to be updated (http-equiv, expires)</p>
+</body>
